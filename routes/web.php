@@ -34,5 +34,9 @@ Route::get('/segunda_habilidad', function () {
     return view('habilidades.segunda_habilidad');
 });
 
+Route::get('/tercera_habilidad', function () {
+    return view('habilidades.tercera_habilidad');
+});
+
 
 
