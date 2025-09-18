@@ -38,6 +38,10 @@ Route::get('/segunda_experiencia', function () {
     return view('experiencia_laboral.segunda_experiencia');
 });
 
+Route::get('/tercera_experiencia', function () {
+    return view('experiencia_laboral.tercera_experiencia');
+});
+
 
 
 
