@@ -34,6 +34,10 @@ Route::get('/experiencia', function () {
     return view('experiencia_laboral.experiencia');
 });
 
+Route::get('/segunda_experiencia', function () {
+    return view('experiencia_laboral.segunda_experiencia');
+});
+
 
 
 
