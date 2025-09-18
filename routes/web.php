@@ -26,5 +26,15 @@ Route::get('/actualidad', function () {
     return view('biografia.actualidad');
 });
 
+Route::get('/aspiraciones', function () {
+    return view('biografia.aspiraciones');
+});
+
+Route::get('/experiencia', function () {
+    return view('experiencia_laboral.experiencia');
+});
+
+
+
 
 
