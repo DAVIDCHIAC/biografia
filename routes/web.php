@@ -26,5 +26,9 @@ Route::get('/actualidad', function () {
     return view('biografia.actualidad');
 });
 
+Route::get('/primera_habilidad', function () {
+    return view('habilidades.primera_habilidad');
+});
+
 
 
