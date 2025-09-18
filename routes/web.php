@@ -26,5 +26,7 @@ Route::get('/actualidad', function () {
     return view('biografia.actualidad');
 });
 
-
+Route::get('/primera_aca', function () {
+    return view('cademia.primera_aca');
+});
 
