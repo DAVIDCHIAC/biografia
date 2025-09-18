@@ -18,3 +18,7 @@ Route::get('/niñez', function () {
     return view('biografia.niñez');
 });
 
+Route::get('/adolescencia', function () {
+    return view('biografia.adolescencia');
+});
+
