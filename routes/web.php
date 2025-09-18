@@ -9,3 +9,8 @@ Route::get('/', function () {
 Route::get('/margen_exp', function () {
     return view('margen_exp');
 });
+
+Route::get('/marge_habilidades', function () {
+    return view('marge_habilidades');
+});
+
