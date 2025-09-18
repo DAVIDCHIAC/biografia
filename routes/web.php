@@ -29,4 +29,7 @@ Route::get('/actualidad', function () {
 Route::get('/primera_aca', function () {
     return view('cademia.primera_aca');
 });
+Route::get('/universidad', function () {
+    return view('cademia.universidad');
+});
 
