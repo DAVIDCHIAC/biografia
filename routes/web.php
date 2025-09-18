@@ -22,3 +22,9 @@ Route::get('/adolescencia', function () {
     return view('biografia.adolescencia');
 });
 
+Route::get('/actualidad', function () {
+    return view('biografia.actualidad');
+});
+
+
+
